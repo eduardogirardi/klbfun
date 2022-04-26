@@ -1,4 +1,4 @@
-cad_join <- function(dc, cad, by = c("centro", "rf", "talhao", "ciclo", "rotacao"), ...){
+cad_join <- function(dc, cad, by = c("rf", "talhao", "ciclo", "rotacao"), ...){
   
   #remove dados duplicados no cadastro
   
